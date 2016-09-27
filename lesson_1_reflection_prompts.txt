@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It made it easier to focus on the code that was changed instead of wading through
+the entire file to find the lines individually. By doing so, fixing the typos
+was made much easier.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+By having an understanding of when bugs popped up, what changes were made at 
+the time of those bugs, and seeing how the code evolved, bug hunting would 
+become a lot easier to do.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+I get to choose when changes have become important enough to warrant comparison. 
+This means that only important changes will be compared, instead of half-finished
+lines, or changes that were only significant as to, say, the changing of a comment.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Its a difference in focus. Whereas in Google Docs, you are only writing one file
+at a time, in coding, you are frequently changing several documents at once. 
+Because of this, changes in one document reflect changes in another. Also, by only
+being able to choose those files in a project that changed at any one time, 
+comparison file saving is kept to a minimum,
+
+How can you use the commands git log and git diff to view the history of files?
+ 
+ git log will show the commits made, their ids, and comments on what changed.
+ using that info, you can then use git diff with the ids to view the exact
+ file changes between the versions in question.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+  I would be able to go ahead and make those changes knowing that if something
+  breaks, I can roll back the changes. Also, if I don't want to completely undo
+  the work released in a commit, I could go through, find where the bug is 
+  introduced, troubleshoot from there, and go fix the bug back in the main
+  branch.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+ I'm going to be using git for all of my projects, including the first thing
+ I want to make, a web page based character creator for DND.
