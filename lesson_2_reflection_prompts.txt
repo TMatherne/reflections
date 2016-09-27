@@ -18,6 +18,13 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+ By comparing the git diff you know the staging area compared to changes. 
+ By compareing git diff --staged, you know changes currently staged compared
+ to the latest commit. 
+ By doing these judiciously, you can ensure that you are committing only one
+ change per commit, no matter how much work you've completed previous to that
+ commit. 
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
