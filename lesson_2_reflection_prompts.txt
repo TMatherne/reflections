@@ -45,10 +45,17 @@ What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
  Merging two branches together results in the branches joining under the
- name of the first branch named in the merge command. This results in the
- commit histories being commingled according to timestamp. 
+ name of the branch active when the command was executed. The commit histories
+ being commingled according to timestamp. 
  It is represented in the diagram as it is because the histories become
  tied together and the parent/child relationships are retained.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+ The pros of automatic merging is that when there are no potential conflicts,
+ merges happen without having to waste time looking over and verifying that each
+ needed merge is going to happen according to plan. The only time merges need
+ to be manually verified is when there are potential for code overlap.
+ The cons to doing this, is that sometimes, some potential overlaps may be missed
+ by the algorithm, resulting in unintentional bugs.
