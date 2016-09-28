@@ -44,5 +44,11 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+ Merging two branches together results in the branches joining under the
+ name of the first branch named in the merge command. This results in the
+ commit histories being commingled according to timestamp. 
+ It is represented in the diagram as it is because the histories become
+ tied together and the parent/child relationships are retained.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
