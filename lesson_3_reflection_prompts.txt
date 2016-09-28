@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+ This would be useful when working from more than one location, in order to keep changes
+ between workstations in sync, when more than one person is working on the same project,
+ or when backing up data offsite is desireable.
