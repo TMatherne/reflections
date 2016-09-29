@@ -39,3 +39,18 @@ How would you collaborate without using Git or GitHub? What would be easier, and
   I would have a hell of a time collaborating without Git. I don't even want to think about the 
   pain it would be having to diff each and every file endlessly and fix the errors manually.
   That is why the pioneers of CS created this sort of thing in the first place!
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+ The benefit of creating a separate branch is that the new branch can break, without 
+ affecting the quality of the main branch. This is good for adding experimental functions
+ to a program to ensure the new ideas don't break a project. 
+
+ Also, making a different version of the same code, as shown in the easy-mode example of
+ Asteroids, or the Italian translations from earlier lessons, shows that maintaining several
+ branches of different code branches is often a good idea as well.
+
+ Making changes directly to master would be beneficial is the only changes is pure bug killing.
+ If all you are doing is fixing a piece of code, there is no reason to maintain it as a separate 
+ project branches.
