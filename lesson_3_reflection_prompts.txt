@@ -11,3 +11,18 @@ When would you want to use a remote repository rather than keeping all your work
  functionality I'm relying on to make the changes I'm working on. On the other hand, if
  I manually pull, I can ensure that there are no conflicts by engagin in conflict resolution
  on my own.
+
+ Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+  A fork is when you clone code from a GitHub repository into your own user area in GitHub.
+  This is useful when you want to start working on a project someone else has started, but 
+  want to take it in your own direction.
+
+  A clone is a direct and exact copy of a repository into another repository. This is
+  used when you want to work on the code from a location other than the original machine
+  the data is stored on, or if you want to create a new project off of the backbone of the
+  contents of the repository being cloned.
+
+  A branch is when you deviate from code in your own repository for the purposes of anything
+  from adding new funtionality while maintaining a working copy, performing localization, or
+  just testing new features.
