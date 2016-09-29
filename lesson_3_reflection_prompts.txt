@@ -26,3 +26,10 @@ When would you want to use a remote repository rather than keeping all your work
   A branch is when you deviate from code in your own repository for the purposes of anything
   from adding new funtionality while maintaining a working copy, performing localization, or
   just testing new features.
+
+  What is the benefit of having a copy of the last known state of the remote stored locally?
+
+   The benefit of keeping the last known state of the remote local to the machine is that
+   when you are ready to commit back to the remote, you are less likely to run into 
+   commit conflicts at that point, and have most, if not all such conflicts resolved 
+   beforehand.
