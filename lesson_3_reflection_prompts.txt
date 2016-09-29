@@ -33,3 +33,9 @@ When would you want to use a remote repository rather than keeping all your work
    when you are ready to commit back to the remote, you are less likely to run into 
    commit conflicts at that point, and have most, if not all such conflicts resolved 
    beforehand.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+  I would have a hell of a time collaborating without Git. I don't even want to think about the 
+  pain it would be having to diff each and every file endlessly and fix the errors manually.
+  That is why the pioneers of CS created this sort of thing in the first place!
